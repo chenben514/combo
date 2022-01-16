@@ -1,0 +1,63 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>測驗 | Ben</title>
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../styles/word_chain.css" />    
+    <!-- FontAweome CDN Link for Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="nav">
+      <img class="logo"  />
+      <span class="title"> Ben 的測驗網 </span>
+
+      <div class="category">
+      <ul>
+        <li>
+          <a class="active" href="./pages/chinese.html">中文</a>
+        </li>
+        <li>
+          <a href="#">數學</a>
+        </li>
+        <li>
+          <a href="#">英文</a>
+        </li>
+      </ul>
+      </div>
+      <!-- <img class="avatar" src="../images/binchen-bright.png" /> -->
+      <img class="avatar"/> 
+      </div>
+    </div>
+
+    <div class="section_course">
+      <div class="course-caption">中文-文字接龍
+      <button class="test-btn word_chain"  onclick="startWordChain()" >重新開始</button>
+      <button class="test-btn word_chain"  onclick="nextWordChain()" >電腦接字</button>
+
+      <button class="test-btn word_chain"  onclick="myWordChain()" >我要接字</button>
+      <input class="word_chain_input" type="text" id="myAnswer" name="myAnswer">
+      <span class="word_chain_score">0</span>
+      <span class="word_chain_score_label">分數：</span>
+
+      </div>
+      <hr>
+    </div>
+
+    <div class="section_word_chain">
+        <!-- <span class='word'>畫蛇添足</span><span class='pron'>(ㄏㄨㄚˋ　ㄕㄜˊ　ㄊㄧㄢ　ㄗㄨˊ)</span> ➜ -->
+    </div>    
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="../../js/components/word_chain.js" + new Date().getTime()></script>
+  </body>
+</html>
